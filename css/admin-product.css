@@ -1,0 +1,83 @@
+form {
+    width: 1100px;
+    height: 150px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    box-shadow: 0px 4px 20px black;
+    margin-left: 170px;
+}
+
+h1 {
+    position: relative;
+    top: 30px;
+    margin-left: 380px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 8px;
+    margin-left: 10px;
+    margin-right: 30px;
+    position: relative;
+    top: 35px;
+}
+
+label {
+    position: relative;
+    top: 35px;
+}
+
+#addProductbtn {
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    top: 35px;
+}
+
+#addProductbtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+table {
+    margin-top: 50px;
+    width: 1100px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 210px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 337.6px;
+    height: 491.86px;
+    margin: 20px;
+}
+
+#backtomain {
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+#backtomain:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    display: grid;
+    border: 1px solid black;
+    height: 150px;
+    justify-content: center;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+
+#backtologin {
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#backtologin:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
